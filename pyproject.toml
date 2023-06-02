@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "korean-lunar-calendar-dataset-generator"
+version = "0.1.0"
+description = "korean-lunar-calendar 데이터셋 생성기"
+authors = ["jangjunha <hi@jangjunha.me>"]
+readme = "README.md"
+packages = [{ include = "korean_lunar_calendar_dataset_generator" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.4"
+aiostream = "^0.4.5"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
