@@ -2,7 +2,8 @@ from .dataset import Dataset
 from .fetch import LunarDateData
 
 
-TEMPLATE = """use chrono::NaiveDate;
+TEMPLATE = """// Code generated from https://github.com/jangjunha/korean-lunar-calendar-dataset-generator
+use chrono::NaiveDate;
 use lazy_static::lazy_static;
 
 use crate::month::M;
